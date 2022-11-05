@@ -1,6 +1,6 @@
 {
-  "name": "rabbitmqueue",
-  "version": "1.0.9",
+  "name": "devnagri-rabbitmq-node",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {

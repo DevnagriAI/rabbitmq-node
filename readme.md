@@ -1,4 +1,4 @@
-# RabbitMQueue
+# devnagri RabbitMQ Node
 A simple queue for jobs made using rabbitmq.
 
 ## Prerequisite
@@ -12,7 +12,7 @@ npm i rabbitmqueue
 ## Queue Daemon
 Create a js file on the root directory of your project. Let's call it `rmq.js`.
 ```js
-const rabbitmqueue = require('rabbitmqueue');
+const rabbitmqueue = require('devnagri-rabbitmq-node');
 
 const consumers = {
     'default': function (data) {
@@ -35,7 +35,7 @@ node rmq.js
 ## Producer in action
 Here's how to push messages to queue.
 ```js
-const rabbitmqueue = require('rabbitmqueue');
+const rabbitmqueue = require('devnagri-rabbitmq-node');
 
 const producer = rabbitmqueue.producer("amqp://localhost", ['default']);
 
