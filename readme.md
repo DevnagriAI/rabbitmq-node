@@ -1,4 +1,4 @@
-# devnagri RabbitMQ Node
+# Devnagri RabbitMQ Node
 A simple queue for jobs made using rabbitmq.
 
 ## Prerequisite
